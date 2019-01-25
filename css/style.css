@@ -1,0 +1,53 @@
+html,body{
+	height: 100%;
+	margin: 0%;
+}
+.main {
+	height: 100%;
+	width: 80%;
+	background-color: #00b241;
+	margin:auto;
+
+}
+
+.second {
+	height: 80%;
+	width: 30%;
+	background-color: gainsboro;
+	position: relative;
+	margin: auto;
+	top: 60px;
+}
+
+h2 {
+	padding:2px 30px;
+	font-family: arial;
+	font-weight: 100;
+	margin: 0%;
+	color: darkgray;
+
+}
+
+h3 {
+	font-family: arial;
+	font-weight: 100;
+	font-size: 12px;
+	padding: 0 30px;
+    color: darkgray;
+}
+form input[type="text"],textarea{
+	padding: 8px;
+	width: 80%;
+	color: darkgray;
+   margin: 9px 25px;
+}
+input[type=submit]:focus {
+	background-color:#00b241 ;
+	width: 85%;
+	padding: 6px;
+	margin: 10px 25px;
+}
+input[type submit]:hover{
+	background-color: lightblue;
+}
+
